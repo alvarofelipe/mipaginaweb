@@ -1,0 +1,69 @@
+body { /* Define los estilos generales del cuerpo del sitio web */
+  margin: 0; /* Elimina los márgenes por defecto del navegador */
+  font-family: sans-serif; /* Usa una fuente genérica sin serifas */
+  background-color: #0d1117; /* Establece un color de fondo oscuro (gris/azul muy oscuro) */
+  color: white; /* Cambia el color del texto a blanco */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+header { /* Estilos aplicados al encabezado */
+  display: flex; /* Usa Flexbox para organizar los elementos */
+  justify-content: space-between; /* Distribuye el logo y menú en extremos opuestos */
+  align-items: center; /* Centra verticalmente los elementos dentro del header */
+  padding: 20px; /* Agrega espacio interno alrededor del contenido del header */
+}
+
+.logo { /* Estilos para el div con clase "logo" */
+  font-weight: bold; /* Aplica negrita al texto */
+}
+
+nav a { /* Estilos para los enlaces dentro del bloque nav */
+  margin: 0 10px; /* Añade espacio horizontal entre enlaces */
+  color: white; /* Define el color del texto en blanco */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+main h1 { /* Estilos para el título principal dentro del main */
+  font-size: 2em; /* Establece un tamaño de fuente grande */
+  margin-top: 50px; /* Añade espacio en la parte superior */
+  line-height: 1.5; /* Espaciado entre líneas del texto */
+}
+
+main > button { /* Estilos para el botón dentro de main (Comprar) */
+  margin-top: 20px; /* Añade espacio encima del botón */
+  padding: 10px 30px; /* Añade espacio interno (vertical y horizontal) */
+  font-size: 1em; /* Tamaño de fuente estándar */
+  cursor: pointer; /* Cambia el cursor a "mano" al pasar el mouse */
+}
+
+.productos { /* Estilos para la sección contenedora de productos */
+  display: flex; /* Usa Flexbox para alinear los productos en fila */
+  justify-content: center; /* Centra horizontalmente los productos */
+  gap: 20px; /* Espacio horizontal entre productos */
+  margin-top: 40px; /* Espacio superior entre sección y contenido anterior */
+}
+
+.producto { /* Estilos aplicados a cada contenedor individual de producto */
+  background-color: #161b22; /* Fondo ligeramente más claro que el del body */
+  padding: 20px; /* Espacio interno alrededor del contenido */
+  border-radius: 10px; /* Bordes redondeados del contenedor */
+  width: 180px; /* Ancho fijo del contenedor de producto */
+}
+
+.producto img { /* Estilos para la imagen dentro de cada producto */
+  width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  border-radius: 6px; /* Bordes redondeados de la imagen */
+  margin-bottom: 10px; /* Espacio debajo de la imagen */
+}
+
+.producto button { /* Estilos para el botón de precio dentro del producto */
+  margin-top: 10px; /* Espacio por encima del botón */
+  padding: 8px 20px; /* Espacio interno del botón */
+  font-size: 1em; /* Tamaño estándar de letra */
+  background-color: #238636; /* Fondo verde del botón */
+  color: white; /* Texto blanco dentro del botón */
+  border: none; /* Sin bordes por defecto */
+  border-radius: 5px; /* Bordes redondeados del botón */
+  cursor: pointer; /* Cursor de "mano" al pasar sobre el botón */
+}
